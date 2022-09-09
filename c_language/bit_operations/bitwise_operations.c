@@ -1,11 +1,11 @@
-#if 0
+/*
 bitwise operations include
 1) ~ (NOT)
 2) <<、>> 
 3) & (AND)
 4) ^ (XOR)
 5) | (OR)
-#endif
+*/
 
 #include <stdio.h>
 
