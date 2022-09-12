@@ -19,6 +19,9 @@ int main(){
         for(int i=0;i<num;i++){
             printf("\ninput %d_th student's grade =",i+1);
             scanf("%d",&grade[i]);
+            //------------wrong
+            //sum += *grade[i];
+            //----------------
             sum += *(grade+i);
         }
         printf("\n sum = %d",sum);
