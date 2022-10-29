@@ -19,8 +19,10 @@ void matrix_multiply(int *a, int *b, int m, int n, int p) {
   printf("\n");
   for (int i = 0; i < m; i++) {
     for (int j = 0; j < p; j++) {
-      printf("matrix[%d][%d] = %d \n", i, j, c[i * p + j]);
+    //   printf("matrix[%d][%d] = %d ", i, j, c[i * p + j]);
+      printf(" %d ",c[i * p + j]);
     }
+    printf("\n");
   }
 }
 /*
