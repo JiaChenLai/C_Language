@@ -22,13 +22,13 @@ int main()
 {
     Polynomial a,b,c;
     a.count = 0;
-    attach(&a,3,5);
+    attach(&a,3,5);  //3x^5 + 8x^4 -6x^2 +5 
     attach(&a,8,4);
     attach(&a,-6,2);
     attach(&a,5,0);
 
     b.count = 0;
-    attach(&b,2,6);
+    attach(&b,2,6);  //2x^6 + 4x^2 +1
     attach(&b,4,2);
     attach(&b,1,0);
 
